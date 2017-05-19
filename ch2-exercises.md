@@ -99,7 +99,13 @@ e) `((λp.(λq.p λx.(x p)) λi.λj.(j i)) λa.λb.(a (a b)))`
                   <function> - x
                   <argument> - p
       <argument> - λi.λj.(j i)
-
+        <bound variable> - i
+        <body> - λj.(j i)
+          <bound variable> - j
+          <body> - (j i)
+            <application>
+              <function> - j
+              <argument> - i
   <argument> - λa.λb.(a (a b))
     <bound variable> - a
     <body> - λb.(a (a b))
