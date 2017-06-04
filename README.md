@@ -5,3 +5,4 @@ Just a collection of my work as I read through the book.
 
 ## Exercises
 - [Chapter 2](./ch2-exercises.md)
+- [Chapter 3](./ch3-exercises.md)
